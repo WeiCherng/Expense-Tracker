@@ -1,0 +1,42 @@
+.expenseItem {
+    margin: 24px 0;
+}
+.expenseDesc {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 12px;
+}
+.name {
+    margin-left: 18px;
+}
+.type {
+    margin: 0;
+    padding: 8px 18px;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0 ;
+    width: fit-content;
+}
+.price {
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Food {
+    background-color: #f2636a;
+}
+.Rent {
+    background-color: #f8961e;
+}
+.Debt {
+    background-color: #f9c74f;
+}
+.Utilities {
+    background-color: #90be6d;
+}
+.Other {
+    background-color: #43aa8b;
+}

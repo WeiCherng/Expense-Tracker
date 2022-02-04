@@ -1,0 +1,45 @@
+.labelAlign {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+.labelCont {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.labelName {
+    font-size: 12px;
+    margin: 0;
+}
+#food {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    background-color: #f2636a;
+}
+#rent {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    background-color: #f8961e;
+}
+#debt {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    background-color: #f9c74f;
+}
+#utilities {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    background-color: #90be6d;
+}
+#other {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    background-color: #43aa8b;
+}
