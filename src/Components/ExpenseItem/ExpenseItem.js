@@ -1,17 +1,17 @@
 import ExpenseDate from "./ExpenseDate";
+import { motion } from "framer-motion";
 import "./ExpenseItem.css";
 
 export const ExpenseItem = (props) => {
   let style;
-  if(props.type === "Food/Beverage")
-  {
+  if (props.type === "Food/Beverage") {
     style = "type Food";
   } else {
     style = `type ${props.type}`;
   }
-  
+
   return (
-    <li>
+    <motion.li initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{duration: 0.5}}>
       <div className="expenseItem">
         <p className={style}>{props.type}</p>
         <div className="expenseDesc">
@@ -20,6 +20,6 @@ export const ExpenseItem = (props) => {
           <p className="price">${props.amount}</p>
         </div>
       </div>
-    </li>
+    </motion.li>
   );
 };

@@ -14,7 +14,7 @@ function App() {
 
   const inputDataHandler = (data) => {
     setExpenses((prevExpenses) => {
-      return [data, ...prevExpenses];
+      return [ ...prevExpenses, data];
     });
   };
 
